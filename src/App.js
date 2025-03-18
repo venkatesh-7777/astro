@@ -23,7 +23,7 @@ const App = () => {
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<Astronomy />} /> 
+        <Route path="/" element={<AstronomyPicture />} /> 
         <Route path="/planet-search" element={<PlanetSearch />} /> 
       </Routes>
     </div>
